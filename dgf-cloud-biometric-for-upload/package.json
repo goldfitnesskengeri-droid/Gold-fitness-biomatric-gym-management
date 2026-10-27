@@ -1,0 +1,19 @@
+{
+  "name": "dgf-cloud-biometric",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloud ADMS/PUSH gateway for DGF Command - lets eSSL F22/X990 biometric devices phone home over the internet instead of requiring the local Fingerprint Bridge daemon.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
